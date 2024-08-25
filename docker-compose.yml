@@ -1,0 +1,6 @@
+﻿services:
+  azureblobstoragewebapi:
+    image: azureblobstoragewebapi
+    build:
+      context: .
+      dockerfile: AzureBlobStorageWebApi/Dockerfile
