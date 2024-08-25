@@ -14,9 +14,9 @@ This service handles file operations in Azure Blob Storage, such as uploading, d
   - Blobs: The actual files stored in Blob Storage.
   
 # Features
-  Upload File: Upload a file to Azure Blob Storage, generating a unique ID for each file.
-  Download File: Retrieve a file from storage using its unique ID.
-  Delete File: Remove a file from storage.
-  Upload JSON: Store JSON data (like customer settings) in a .json file.
-  Download JSON: Retrieve JSON data from storage and convert it back into its original format.
-  Update JSON: Replace the contents of an existing JSON file with updated data.
+  - Upload File: Upload a file to Azure Blob Storage, generating a unique ID for each file.
+  - Download File: Retrieve a file from storage using its unique ID.
+  - Delete File: Remove a file from storage.
+  - Upload JSON: Store JSON data (like customer settings) in a .json file.
+  - Download JSON: Retrieve JSON data from storage and convert it back into its original format.
+  - Update JSON: Replace the contents of an existing JSON file with updated data.
