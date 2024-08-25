@@ -1,16 +1,29 @@
 {
   "version": 2,
-  "dgSpecHash": "cMjYLSdStezGjLRELZRMuOd9HS2l/cAfOu8gmmQJbDHffdauoTiVij/bNusuCj7MOMowXTv/W5glfJDjx6aCQw==",
+  "dgSpecHash": "5pxO9dSv6vpBc1GtEM0acaspIxZiZ5gcsef1TgGSqMvCankZFKgaoUcALCQOyzw3Ede1lw0eLDDEncvJReJe6g==",
   "success": true,
   "projectFilePath": "/Users/danieltenkorang/Code/github.com/kwamekyeimonies/AzureBlobStorageWebApi/AzureBlobStorageWebApi/AzureBlobStorageWebApi.csproj",
   "expectedPackageFiles": [
+    "/Users/danieltenkorang/.nuget/packages/azure.core/1.41.0/azure.core.1.41.0.nupkg.sha512",
+    "/Users/danieltenkorang/.nuget/packages/azure.storage.blobs/12.21.2/azure.storage.blobs.12.21.2.nupkg.sha512",
+    "/Users/danieltenkorang/.nuget/packages/azure.storage.common/12.20.1/azure.storage.common.12.20.1.nupkg.sha512",
     "/Users/danieltenkorang/.nuget/packages/microsoft.aspnetcore.openapi/8.0.7/microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
+    "/Users/danieltenkorang/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/danieltenkorang/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/danieltenkorang/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
     "/Users/danieltenkorang/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/Users/danieltenkorang/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/Users/danieltenkorang/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "/Users/danieltenkorang/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "/Users/danieltenkorang/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "/Users/danieltenkorang/.nuget/packages/system.clientmodel/1.0.0/system.clientmodel.1.0.0.nupkg.sha512",
+    "/Users/danieltenkorang/.nuget/packages/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "/Users/danieltenkorang/.nuget/packages/system.io.hashing/6.0.0/system.io.hashing.6.0.0.nupkg.sha512",
+    "/Users/danieltenkorang/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
+    "/Users/danieltenkorang/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/danieltenkorang/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/danieltenkorang/.nuget/packages/system.text.encodings.web/4.7.2/system.text.encodings.web.4.7.2.nupkg.sha512",
+    "/Users/danieltenkorang/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
+    "/Users/danieltenkorang/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }
