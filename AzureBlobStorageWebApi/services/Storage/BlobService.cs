@@ -65,10 +65,8 @@ public class BlobService : IBlobService
         var fileId = Guid.NewGuid();
         BlobClient blobClient = containerClient.GetBlobClient($"{fileId}.json");
 
-        // Convert settings object to JSON string
         string jsonString = JsonSerializer.Serialize(settings);
 
-        // Convert JSON string to stream
         using var stream = new MemoryStream(Encoding.UTF8.GetBytes(jsonString));
 
         await blobClient.UploadAsync(stream, new BlobHttpHeaders { ContentType = "application/json" },
@@ -83,10 +81,8 @@ public class BlobService : IBlobService
         BlobContainerClient containerClient = _blobServiceClient.GetBlobContainerClient(filesContainer);
         BlobClient blobClient = containerClient.GetBlobClient($"{fileId}.json");
 
-        // Await the response from DownloadContentAsync
         var response = await blobClient.DownloadContentAsync(cancellationToken: cancellationToken);
 
-        // Convert JSON content to BrandingSettings object
         string jsonString = response.Value.Content.ToString();
         CustomerSettings settings = JsonSerializer.Deserialize<CustomerSettings>(jsonString);
 
@@ -99,10 +95,8 @@ public class BlobService : IBlobService
         BlobContainerClient containerClient = _blobServiceClient.GetBlobContainerClient(filesContainer);
         BlobClient blobClient = containerClient.GetBlobClient($"{fileId}.json");
 
-        // Convert updated settings object to JSON string
         string jsonString = JsonSerializer.Serialize(updatedSettings);
 
-        // Convert JSON string to stream
         using var stream = new MemoryStream(Encoding.UTF8.GetBytes(jsonString));
 
         // Upload and overwrite the existing JSON file
